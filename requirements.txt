@@ -1,12 +1,8 @@
-# Create a SIMPLE requirements.txt with only essentials
+# Create this exact requirements.txt
 @"
-streamlit==1.53.1
-pandas==2.3.0
-numpy==2.3.0
-plotly==6.5.2
-folium==0.20.0
-streamlit-folium==0.26.1
-Pillow==12.0.0
-matplotlib==3.10.5
-seaborn==0.13.2
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+plotly>=5.17.0
+Pillow>=10.0.0
 "@ | Out-File -FilePath requirements.txt -Encoding UTF8
