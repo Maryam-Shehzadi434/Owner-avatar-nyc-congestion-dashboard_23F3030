@@ -1,8 +1,7 @@
-# Create this exact requirements.txt
-@"
-streamlit>=1.28.0
-pandas>=2.0.0
-numpy>=1.24.0
-plotly>=5.17.0
-Pillow>=10.0.0
-"@ | Out-File -FilePath requirements.txt -Encoding UTF8
+streamlit
+pandas
+numpy
+plotly
+Pillow
+folium
+streamlit-folium
