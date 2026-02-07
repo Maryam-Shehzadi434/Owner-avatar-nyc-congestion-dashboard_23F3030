@@ -10,8 +10,6 @@ from plotly.subplots import make_subplots
 from PIL import Image
 from pathlib import Path
 import base64
-import folium
-from streamlit_folium import folium_static
 import numpy as np
 import re
 
