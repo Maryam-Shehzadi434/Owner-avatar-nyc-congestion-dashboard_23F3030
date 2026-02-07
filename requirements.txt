@@ -1,4 +1,4 @@
-# Create the exact requirements.txt file
+# Create a SIMPLE requirements.txt with only essentials
 @"
 streamlit==1.53.1
 pandas==2.3.0
@@ -7,17 +7,6 @@ plotly==6.5.2
 folium==0.20.0
 streamlit-folium==0.26.1
 Pillow==12.0.0
-branca==0.8.2
-geopandas==1.1.2
-pydeck==0.9.1
-altair==6.0.0
 matplotlib==3.10.5
 seaborn==0.13.2
-shapely==2.1.2
-pyproj==3.7.2
-pyarrow==23.0.0
-scipy==1.16.0
-scikit-learn==1.7.1
-networkx==3.6.1
-descartes==1.1.0
 "@ | Out-File -FilePath requirements.txt -Encoding UTF8
